@@ -6,7 +6,7 @@ def md(s): cells.append(("markdown", s.strip("\n")))
 def code(s): cells.append(("code", s.strip("\n")))
 
 md("""
-# Week 13 Mini Assignment — PySpark Data Processing Pipeline
+# Week 12 Mini Assignment — PySpark Data Processing Pipeline
 **Dataset:** NYC TLC Yellow Taxi trip records, Jan 2023 – Dec 2024 (24 Parquet files, ~1.2 GB compressed, ~78M rows)
 + Taxi Zone lookup table (265 zones) for joins.
 
