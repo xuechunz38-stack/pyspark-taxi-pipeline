@@ -1,0 +1,8 @@
+data/
+output/
+spark-warehouse/
+metastore_db/
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+spark-events/
